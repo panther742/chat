@@ -1,0 +1,774 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-10-26T13:14:02.815Z",
+  "users": [
+    {
+      "id": "u-elena",
+      "username": "elena_vance",
+      "displayName": "Elena Vance",
+      "bio": "Spatial systems architect & community founder. Exploring brutalist acoustics, WebRTC low-latency rooms, and decentralized design.",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20240%20240%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g1%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E1B4B%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%234338CA%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230F172A%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22240%22%20height%3D%22240%22%20rx%3D%22120%22%20fill%3D%22url(%23g1)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%2292%22%20r%3D%2240%22%20fill%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M52%20214C58%20164%2086%20146%20120%20146C154%20146%20182%20164%20188%20214%22%20fill%3D%22%23C7D2FE%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22176%22%20cy%3D%2258%22%20r%3D%2214%22%20fill%3D%22%23818CF8%22%20opacity%3D%220.5%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "bannerColor": "#4F46E5",
+      "isPrivate": false,
+      "platformRole": "admin",
+      "createdAt": "2026-10-19T13:13:11.999Z",
+      "followers": [
+        "u-marcus",
+        "u-sora",
+        "u-devon"
+      ],
+      "following": [
+        "u-marcus",
+        "u-sora"
+      ],
+      "blockedUsers": [],
+      "savedPostIds": [
+        "post-2"
+      ],
+      "savedReelIds": [
+        "reel-1"
+      ],
+      "notificationPrefs": {
+        "directMessages": true,
+        "mentionsAndReplies": true,
+        "likesAndComments": true,
+        "newFollowers": true,
+        "communityInvites": true
+      },
+      "statusText": "Designing #monolith-acoustics"
+    },
+    {
+      "id": "u-marcus",
+      "username": "marcus_k",
+      "displayName": "Marcus Kael",
+      "bio": "Hardware synth builder & DSP engineer. Hosting nightly modular patch streams in Synth Architects.",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20240%20240%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g2%22%20x1%3D%220%22%20y1%3D%221%22%20x2%3D%221%22%20y2%3D%220%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230F172A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23312E81%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236D28D9%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22240%22%20height%3D%22240%22%20rx%3D%22120%22%20fill%3D%22url(%23g2)%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M74%2096%20A46%2046%200%200%201%20166%2096%22%20stroke%3D%22%23818CF8%22%20stroke-width%3D%2210%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2264%22%20y%3D%2286%22%20width%3D%2216%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%236366F1%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22160%22%20y%3D%2286%22%20width%3D%2216%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%236366F1%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%2296%22%20r%3D%2236%22%20fill%3D%22%23F1F5F9%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M56%20216C64%20166%2090%20148%20120%20148C150%20148%20176%20166%20184%20216%22%20fill%3D%22%2394A3B8%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "bannerColor": "#7C3AED",
+      "isPrivate": false,
+      "platformRole": "user",
+      "createdAt": "2026-10-20T13:13:11.999Z",
+      "followers": [
+        "u-elena",
+        "u-sora"
+      ],
+      "following": [
+        "u-elena",
+        "u-sora",
+        "u-devon"
+      ],
+      "blockedUsers": [],
+      "savedPostIds": [
+        "post-1"
+      ],
+      "savedReelIds": [],
+      "notificationPrefs": {
+        "directMessages": true,
+        "mentionsAndReplies": true,
+        "likesAndComments": true,
+        "newFollowers": true,
+        "communityInvites": true
+      },
+      "statusText": "Patching Eurorack 48kHz"
+    },
+    {
+      "id": "u-sora",
+      "username": "sora_takahashi",
+      "displayName": "Sora Takahashi",
+      "bio": "Computational photographer & real-time shader artist. Tokyo / Zurich.",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20240%20240%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g3%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111827%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%234C1D95%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E293B%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22240%22%20height%3D%22240%22%20rx%3D%22120%22%20fill%3D%22url(%23g3)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%2292%22%20r%3D%2238%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M58%20214C64%20168%2088%20148%20120%20148C152%20148%20176%20168%20182%20214%22%20fill%3D%22%23DDD6FE%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "bannerColor": "#3B82F6",
+      "isPrivate": false,
+      "platformRole": "moderator",
+      "createdAt": "2026-10-21T13:13:11.999Z",
+      "followers": [
+        "u-elena",
+        "u-marcus",
+        "u-devon"
+      ],
+      "following": [
+        "u-elena",
+        "u-marcus"
+      ],
+      "blockedUsers": [],
+      "savedPostIds": [],
+      "savedReelIds": [
+        "reel-2"
+      ],
+      "notificationPrefs": {
+        "directMessages": true,
+        "mentionsAndReplies": true,
+        "likesAndComments": true,
+        "newFollowers": true,
+        "communityInvites": true
+      },
+      "statusText": "Shooting 35mm night series"
+    },
+    {
+      "id": "u-devon",
+      "username": "devon_hart",
+      "displayName": "Devon Hart",
+      "bio": "Protocol security researcher & distributed systems engineer.",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20240%20240%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g4%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23090D16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%231E3A8A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234338CA%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22240%22%20height%3D%22240%22%20rx%3D%22120%22%20fill%3D%22url(%23g4)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%2294%22%20r%3D%2238%22%20fill%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M56%20214C62%20166%2088%20148%20120%20148C152%20148%20178%20166%20184%20214%22%20fill%3D%22%2393C5FD%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "bannerColor": "#1E40AF",
+      "isPrivate": true,
+      "platformRole": "user",
+      "createdAt": "2026-10-23T13:13:11.999Z",
+      "followers": [
+        "u-marcus"
+      ],
+      "following": [
+        "u-elena",
+        "u-sora"
+      ],
+      "blockedUsers": [],
+      "savedPostIds": [],
+      "savedReelIds": [],
+      "notificationPrefs": {
+        "directMessages": true,
+        "mentionsAndReplies": true,
+        "likesAndComments": false,
+        "newFollowers": true,
+        "communityInvites": true
+      },
+      "statusText": "Auditing transport encryption"
+    }
+  ],
+  "credentials": [
+    {
+      "userId": "u-elena",
+      "passwordHashHex": "6181be345dfaeab0437edb102350b609d2a2aae87ecc6b88d520e9d23ea12397",
+      "passwordSaltHex": "b065dc68b3d474aff2bb42bbc5fa3af1"
+    },
+    {
+      "userId": "u-marcus",
+      "passwordHashHex": "74adef94149eb3feef7f77d38b7b5fd6c7abf77a4ce20acf4a4480738db488e7",
+      "passwordSaltHex": "e62a276244f330ffda8f73d57c111580"
+    },
+    {
+      "userId": "u-sora",
+      "passwordHashHex": "a5eb1917315f2b89bb31fd2f3336782418c5c811acaf2ab53252432bad1c6a50",
+      "passwordSaltHex": "1abbc411efd76fdbdbe193693d72e7c4"
+    },
+    {
+      "userId": "u-devon",
+      "passwordHashHex": "6415f6561e0bb5a78d674b1d9d12c15f71af5f3c7567a52856716d9556d4f74f",
+      "passwordSaltHex": "c6a9fcc6220d961c62c865ff07e62b6b"
+    }
+  ],
+  "sessions": [],
+  "posts": [
+    {
+      "id": "post-1793020442815",
+      "authorId": "u-elena",
+      "caption": "Verified end-to-end atomic persistence and unified feed ranking.",
+      "mediaUrls": [],
+      "mediaType": "text",
+      "tags": [
+        "architecture",
+        "audio"
+      ],
+      "likes": [],
+      "comments": [],
+      "createdAt": "2026-10-26T13:14:02.815Z"
+    },
+    {
+      "id": "post-1",
+      "authorId": "u-elena",
+      "caption": "Completed the acoustic baffle array inside the Zurich Monolith Studio. By angling raw board-formed concrete at 7 degrees against warm tungsten diffusion, standing waves drop by 14dB below 120Hz. Join the linked channel or open the live Pulse Room to inspect the impulse responses.",
+      "mediaUrls": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20960%20720%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23090B10%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%23181B2E%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230F111A%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22warmGlow%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F59E0B%22%20stop-opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23EA580C%22%20stop-opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236366F1%22%20stop-opacity%3D%220.1%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22960%22%20height%3D%22720%22%20fill%3D%22url(%23sky)%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Brutalist%20Concrete%20Volumes%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2270%22%20y%3D%22130%22%20width%3D%22820%22%20height%3D%22440%22%20fill%3D%22%23161923%22%20stroke%3D%22%232D3348%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22110%22%20y%3D%22175%22%20width%3D%22350%22%20height%3D%22260%22%20fill%3D%22url(%23warmGlow)%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22490%22%20y%3D%22175%22%20width%3D%22360%22%20height%3D%22260%22%20fill%3D%22url(%23warmGlow)%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Architectural%20Mullions%20--%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22225%22%20y1%3D%22175%22%20x2%3D%22225%22%20y2%3D%22435%22%20stroke%3D%22%23161923%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22345%22%20y1%3D%22175%22%20x2%3D%22345%22%20y2%3D%22435%22%20stroke%3D%22%23161923%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22610%22%20y1%3D%22175%22%20x2%3D%22610%22%20y2%3D%22435%22%20stroke%3D%22%23161923%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22730%22%20y1%3D%22175%22%20x2%3D%22730%22%20y2%3D%22435%22%20stroke%3D%22%23161923%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Cantilever%20Terrace%20%26%20Reflection%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22435%22%20width%3D%22880%22%20height%3D%2236%22%20fill%3D%22%23232736%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2270%22%20y%3D%22570%22%20width%3D%22820%22%20height%3D%22110%22%20fill%3D%22%230B0D14%22%20opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M110%20580%20L850%20580%22%20stroke%3D%22%236366F1%22%20stroke-opacity%3D%220.45%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22645%22%20fill%3D%22%2394A3B8%22%20font-family%3D%22monospace%22%20font-size%3D%2218%22%20letter-spacing%3D%223%22%3EMONOLITH%20STUDIO%20%2F%2F%20ZURICH%20NIGHT%20SESSION%2035MM%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "mediaType": "image",
+      "tags": [
+        "architecture",
+        "acoustics",
+        "studio"
+      ],
+      "likes": [
+        "u-marcus",
+        "u-sora",
+        "u-devon"
+      ],
+      "comments": [
+        {
+          "id": "c-1",
+          "postId": "post-1",
+          "authorId": "u-marcus",
+          "content": "Tested the impulse response file on my modular reverb — the decay tail at 80Hz is remarkably clean.",
+          "createdAt": "2026-10-26T11:23:11.999Z",
+          "likes": [
+            "u-elena",
+            "u-sora"
+          ]
+        },
+        {
+          "id": "c-2",
+          "postId": "post-1",
+          "authorId": "u-sora",
+          "content": "The tungsten vs twilight color temperature balance here is spot on.",
+          "createdAt": "2026-10-26T11:58:11.999Z",
+          "likes": [
+            "u-elena"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T10:53:11.999Z",
+      "linkedCommunityId": "srv-architects",
+      "linkedChannelId": "ch-general",
+      "pulseRoomId": "pulse-1"
+    },
+    {
+      "id": "post-2",
+      "authorId": "u-marcus",
+      "caption": "New granular clock divider & harmonic fold module running at 48kHz / 24-bit. Full schematic and clean stems are pinned inside #modular-dsp.",
+      "mediaUrls": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20960%20720%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22chassis%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230B0D13%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23171A26%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22960%22%20height%3D%22720%22%20fill%3D%22url(%23chassis)%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Eurorack%20Modules%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2260%22%20y%3D%2270%22%20width%3D%22260%22%20height%3D%22580%22%20rx%3D%228%22%20fill%3D%22%23121521%22%20stroke%3D%22%232E364F%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22340%22%20y%3D%2270%22%20width%3D%22280%22%20height%3D%22580%22%20rx%3D%228%22%20fill%3D%22%23141826%22%20stroke%3D%22%233730A3%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22640%22%20y%3D%2270%22%20width%3D%22260%22%20height%3D%22580%22%20rx%3D%228%22%20fill%3D%22%23121521%22%20stroke%3D%22%232E364F%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Rotary%20Encoders%20%26%20LED%20Rings%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22190%22%20cy%3D%22190%22%20r%3D%2248%22%20fill%3D%22%23090B10%22%20stroke%3D%22%236366F1%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22190%22%20y1%3D%22190%22%20x2%3D%22218%22%20y2%3D%22162%22%20stroke%3D%22%23F8FAFC%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22480%22%20cy%3D%22190%22%20r%3D%2256%22%20fill%3D%22%23090B10%22%20stroke%3D%22%238B5CF6%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22480%22%20y1%3D%22190%22%20x2%3D%22480%22%20y2%3D%22142%22%20stroke%3D%22%23A78BFA%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22770%22%20cy%3D%22190%22%20r%3D%2248%22%20fill%3D%22%23090B10%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22770%22%20y1%3D%22190%22%20x2%3D%22800%22%20y2%3D%22175%22%20stroke%3D%22%23FBBF24%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Oscilloscope%20Waveform%20Screen%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22370%22%20y%3D%22290%22%20width%3D%22220%22%20height%3D%22120%22%20rx%3D%226%22%20fill%3D%22%2306080E%22%20stroke%3D%22%234F46E5%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M385%20350%20Q%20415%20295%2C%20445%20350%20T%20505%20350%20T%20565%20350%22%20fill%3D%22none%22%20stroke%3D%22%23818CF8%22%20stroke-width%3D%223.5%22%2F%3E%0A%20%20%20%20%20%20%3C!--%20Braided%20Patch%20Cables%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M190%20480%20C%20240%20640%2C%20420%20620%2C%20480%20480%22%20fill%3D%22none%22%20stroke%3D%22%236366F1%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M480%20510%20C%20560%20660%2C%20710%20640%2C%20770%20480%22%20fill%3D%22none%22%20stroke%3D%22%23EC4899%22%20stroke-width%3D%228%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2285%22%20y%3D%22620%22%20fill%3D%22%2394A3B8%22%20font-family%3D%22monospace%22%20font-size%3D%2216%22%20letter-spacing%3D%222%22%3EGRANULAR%20ENGINE%20%2F%2F%20PATCH%2009-B%20(48KHZ%20%2F%2024-BIT)%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "mediaType": "image",
+      "tags": [
+        "synth",
+        "audio",
+        "hardware"
+      ],
+      "likes": [
+        "u-elena",
+        "u-sora"
+      ],
+      "comments": [
+        {
+          "id": "c-3",
+          "postId": "post-2",
+          "authorId": "u-elena",
+          "content": "Bringing this patch into tonight’s Studio A WebRTC jam session.",
+          "createdAt": "2026-10-26T12:28:11.999Z",
+          "likes": [
+            "u-marcus"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T11:38:11.999Z",
+      "linkedCommunityId": "srv-architects",
+      "linkedChannelId": "ch-modular-dsp"
+    },
+    {
+      "id": "post-3",
+      "authorId": "u-sora",
+      "caption": "Mapped our decentralized relay mesh across 12 regional edge nodes. Zero automatic server deletion, atomic snapshot persistence, and strict 24-hour story isolation verified.",
+      "mediaUrls": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20960%20720%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22960%22%20height%3D%22720%22%20fill%3D%22%23090B11%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20stroke%3D%22%236366F1%22%20stroke-opacity%3D%220.28%22%20stroke-width%3D%221.5%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22480%22%20cy%3D%22360%22%20rx%3D%22340%22%20ry%3D%22120%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22480%22%20cy%3D%22360%22%20rx%3D%22260%22%20ry%3D%22200%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22480%22%20cy%3D%22360%22%20rx%3D%22160%22%20ry%3D%22270%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22480%22%20cy%3D%22360%22%20r%3D%2288%22%20fill%3D%22%231E1B4B%22%20stroke%3D%22%23818CF8%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22290%22%20r%3D%2218%22%20fill%3D%22%236366F1%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22690%22%20cy%3D%22420%22%20r%3D%2222%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%22190%22%20r%3D%2214%22%20fill%3D%22%2338BDF8%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22280%22%20y1%3D%22290%22%20x2%3D%22480%22%20y2%3D%22360%22%20stroke%3D%22%23818CF8%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%22690%22%20y1%3D%22420%22%20x2%3D%22480%22%20y2%3D%22360%22%20stroke%3D%22%23A78BFA%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2280%22%20y%3D%22645%22%20fill%3D%22%2394A3B8%22%20font-family%3D%22monospace%22%20font-size%3D%2217%22%20letter-spacing%3D%222.5%22%3EDISTRIBUTED%20MESH%20TOPOLOGY%20%2F%2F%20LATENCY%20BENCHMARK%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ],
+      "mediaType": "image",
+      "tags": [
+        "systems",
+        "security",
+        "network"
+      ],
+      "likes": [
+        "u-elena",
+        "u-devon"
+      ],
+      "comments": [],
+      "createdAt": "2026-10-26T12:33:11.999Z",
+      "linkedCommunityId": "srv-visual-Tokyo",
+      "linkedChannelId": "ch-darkroom"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-1",
+      "authorId": "u-sora",
+      "mediaUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20540%20960%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22st1%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23090D16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%231E1B4B%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230F172A%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22540%22%20height%3D%22960%22%20fill%3D%22url(%23st1)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22270%22%20cy%3D%22340%22%20r%3D%22130%22%20fill%3D%22%236366F1%22%20opacity%3D%220.22%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2280%22%20y%3D%22180%22%20width%3D%22380%22%20height%3D%22480%22%20rx%3D%2224%22%20fill%3D%22%23131724%22%20stroke%3D%22%234F46E5%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M130%20490%20L230%20350%20L320%20440%20L410%20310%22%20fill%3D%22none%22%20stroke%3D%22%23818CF8%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22410%22%20cy%3D%22310%22%20r%3D%2212%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22115%22%20y%3D%22585%22%20fill%3D%22%23E2E8F0%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2226%22%3ELate%20Night%20Mastering%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22115%22%20y%3D%22622%22%20fill%3D%22%2394A3B8%22%20font-family%3D%22monospace%22%20font-size%3D%2216%22%3ESTUDIO%20B%20%C2%B7%20SHIBUYA%20EAST%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "mediaType": "image",
+      "caption": "Shibuya East — Blue Hour 35mm contact frame (Expires in 24h)",
+      "createdAt": "2026-10-26T10:13:11.999Z",
+      "expiresAt": "2026-10-27T10:13:11.999Z",
+      "viewerIds": [
+        "u-elena",
+        "u-marcus"
+      ],
+      "accentColor": "#6366F1"
+    },
+    {
+      "id": "story-2",
+      "authorId": "u-marcus",
+      "mediaUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20540%20960%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22st2%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230F172A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%233B0764%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23090D16%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22540%22%20height%3D%22960%22%20fill%3D%22url(%23st2)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22270%22%20cy%3D%22440%22%20r%3D%22155%22%20fill%3D%22none%22%20stroke%3D%22%23A855F7%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22270%22%20cy%3D%22440%22%20r%3D%22105%22%20fill%3D%22none%22%20stroke%3D%22%236366F1%22%20stroke-width%3D%223%22%20stroke-dasharray%3D%2212%208%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22270%22%20cy%3D%22440%22%20r%3D%2252%22%20fill%3D%22%238B5CF6%22%20opacity%3D%220.45%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22105%22%20y%3D%22720%22%20fill%3D%22%23F8FAFC%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2226%22%3EWebRTC%20Audio%20Room%20Live%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22105%22%20y%3D%22756%22%20fill%3D%22%23C4B5FD%22%20font-family%3D%22monospace%22%20font-size%3D%2216%22%3EJOIN%20%23SYNTH-LAB%20VOICE%20CHANNEL%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "mediaType": "image",
+      "caption": "Live modular soundcheck in Studio A voice room — hop in!",
+      "createdAt": "2026-10-26T12:13:11.999Z",
+      "expiresAt": "2026-10-27T12:13:11.999Z",
+      "viewerIds": [
+        "u-elena"
+      ],
+      "accentColor": "#8B5CF6"
+    }
+  ],
+  "reels": [
+    {
+      "id": "reel-1",
+      "authorId": "u-marcus",
+      "caption": "Real-time phase modulation & sub-harmonic sweep recorded straight from the Eurorack bus.",
+      "videoUrl": "",
+      "visualPreset": "synth_waves",
+      "durationSec": 28,
+      "likes": [
+        "u-elena",
+        "u-sora",
+        "u-devon"
+      ],
+      "comments": [
+        {
+          "id": "rc-1",
+          "reelId": "reel-1",
+          "authorId": "u-elena",
+          "content": "That sub-bass transient locked right into the grid.",
+          "createdAt": "2026-10-26T12:23:11.999Z"
+        }
+      ],
+      "audioTrackTitle": "Marcus Kael — Patch 09B (Original Bus)",
+      "createdAt": "2026-10-26T11:13:11.999Z",
+      "linkedCommunityId": "srv-architects"
+    },
+    {
+      "id": "reel-2",
+      "authorId": "u-sora",
+      "caption": "Procedural raymarched twilight study for the Nocturne exhibition projection.",
+      "videoUrl": "",
+      "visualPreset": "cyber_grid",
+      "durationSec": 34,
+      "likes": [
+        "u-elena",
+        "u-marcus"
+      ],
+      "comments": [],
+      "audioTrackTitle": "Sora — Ambient Rain Loop 04",
+      "createdAt": "2026-10-26T12:08:11.999Z",
+      "linkedCommunityId": "srv-visual-Tokyo"
+    },
+    {
+      "id": "reel-3",
+      "authorId": "u-elena",
+      "caption": "Acoustic ray-tracing simulation through the concrete diffuser fins.",
+      "videoUrl": "",
+      "visualPreset": "aurora_pulse",
+      "durationSec": 22,
+      "likes": [
+        "u-marcus",
+        "u-sora"
+      ],
+      "comments": [],
+      "audioTrackTitle": "Monolith Impulse — 80Hz Sweep",
+      "createdAt": "2026-10-26T12:48:11.999Z",
+      "linkedCommunityId": "srv-architects"
+    }
+  ],
+  "communities": [
+    {
+      "id": "srv-architects",
+      "name": "Synth & Spatial Architects",
+      "description": "Collaborative collective for modular audio designers, architectural photographers, and WebRTC builders.",
+      "iconText": "SA",
+      "accentColor": "#6366F1",
+      "ownerId": "u-elena",
+      "isPrivate": false,
+      "createdAt": "2026-10-20T07:13:11.999Z",
+      "categories": [
+        "ANNOUNCEMENTS",
+        "DESIGN & AUDIO LABS",
+        "VOICE & STAGE"
+      ],
+      "channels": [
+        {
+          "id": "ch-welcome",
+          "communityId": "srv-architects",
+          "category": "ANNOUNCEMENTS",
+          "name": "announcements",
+          "topic": "Official studio releases, schema milestones, and community events.",
+          "type": "announcement",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "moderator"
+          },
+          "pinnedMessageIds": [
+            "msg-1"
+          ]
+        },
+        {
+          "id": "ch-general",
+          "communityId": "srv-architects",
+          "category": "DESIGN & AUDIO LABS",
+          "name": "general-discourse",
+          "topic": "Open discussion bridging social feed posts and studio projects.",
+          "type": "text",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "member"
+          },
+          "pinnedMessageIds": [
+            "msg-2"
+          ]
+        },
+        {
+          "id": "ch-modular-dsp",
+          "communityId": "srv-architects",
+          "category": "DESIGN & AUDIO LABS",
+          "name": "modular-dsp",
+          "topic": "Share patch notes, oscilloscope captures, and encrypted studio stems.",
+          "type": "text",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "member"
+          },
+          "pinnedMessageIds": []
+        },
+        {
+          "id": "ch-voice-lounge",
+          "communityId": "srv-architects",
+          "category": "VOICE & STAGE",
+          "name": "Studio A — Live Audio/Video",
+          "topic": "Low-latency WebRTC voice, video, and screen-sharing room.",
+          "type": "voice",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "member"
+          },
+          "pinnedMessageIds": []
+        }
+      ],
+      "members": [
+        {
+          "userId": "u-elena",
+          "role": "owner",
+          "joinedAt": "2026-10-20T07:13:11.999Z"
+        },
+        {
+          "userId": "u-sora",
+          "role": "moderator",
+          "joinedAt": "2026-10-21T16:33:11.999Z"
+        },
+        {
+          "userId": "u-marcus",
+          "role": "admin",
+          "joinedAt": "2026-10-20T23:53:11.999Z"
+        },
+        {
+          "userId": "u-devon",
+          "role": "member",
+          "joinedAt": "2026-10-23T18:33:11.999Z"
+        }
+      ],
+      "bannedUserIds": [],
+      "invites": [
+        {
+          "code": "SYNTH-2026",
+          "communityId": "srv-architects",
+          "createdBy": "u-elena",
+          "createdAt": "2026-10-25T13:13:11.999Z",
+          "uses": 14,
+          "revoked": false
+        }
+      ]
+    },
+    {
+      "id": "srv-visual-Tokyo",
+      "name": "Nocturne Visual Collective",
+      "description": "Night street photography, 35mm film critiques, and generative GLSL shaders.",
+      "iconText": "NV",
+      "accentColor": "#8B5CF6",
+      "ownerId": "u-sora",
+      "isPrivate": false,
+      "createdAt": "2026-10-22T00:53:11.999Z",
+      "categories": [
+        "CRITIQUE CHANNELS",
+        "LIVE CRITIQUE"
+      ],
+      "channels": [
+        {
+          "id": "ch-darkroom",
+          "communityId": "srv-visual-Tokyo",
+          "category": "CRITIQUE CHANNELS",
+          "name": "darkroom-critique",
+          "topic": "Post high-resolution contact sheets and lighting diagrams.",
+          "type": "text",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "member"
+          },
+          "pinnedMessageIds": []
+        },
+        {
+          "id": "ch-shader-voice",
+          "communityId": "srv-visual-Tokyo",
+          "category": "LIVE CRITIQUE",
+          "name": "Shader Review Stage",
+          "topic": "Screen-share GLSL shaders and color grading pipelines.",
+          "type": "voice",
+          "permissions": {
+            "minRoleToRead": "member",
+            "minRoleToWrite": "member"
+          },
+          "pinnedMessageIds": []
+        }
+      ],
+      "members": [
+        {
+          "userId": "u-sora",
+          "role": "owner",
+          "joinedAt": "2026-10-22T00:53:11.999Z"
+        },
+        {
+          "userId": "u-elena",
+          "role": "admin",
+          "joinedAt": "2026-10-22T02:33:11.999Z"
+        },
+        {
+          "userId": "u-marcus",
+          "role": "member",
+          "joinedAt": "2026-10-23T01:53:11.999Z"
+        }
+      ],
+      "bannedUserIds": [],
+      "invites": [
+        {
+          "code": "NOCTURNE-35",
+          "communityId": "srv-visual-Tokyo",
+          "createdBy": "u-sora",
+          "createdAt": "2026-10-25T17:13:11.999Z",
+          "uses": 8,
+          "revoked": false
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "channelId": "ch-welcome",
+      "communityId": "srv-architects",
+      "authorId": "u-elena",
+      "content": "Welcome to Synth & Spatial Architects. Server persistence is permanent (no 24-hour server auto-deletion and no 300-message channel trimming). Stories expire after 24h as designed.",
+      "isPasswordProtected": false,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "userIds": [
+            "u-marcus",
+            "u-sora"
+          ]
+        }
+      ],
+      "isPinned": true,
+      "createdAt": "2026-10-25T13:53:11.999Z"
+    },
+    {
+      "id": "msg-2",
+      "channelId": "ch-general",
+      "communityId": "srv-architects",
+      "authorId": "u-elena",
+      "content": "Cross-linked our latest Zurich Monolith Studio post here so community members can inspect the acoustic measurements alongside the feed.",
+      "isPasswordProtected": false,
+      "reactions": [
+        {
+          "emoji": "⚡",
+          "userIds": [
+            "u-marcus"
+          ]
+        }
+      ],
+      "isPinned": true,
+      "createdAt": "2026-10-26T10:58:11.999Z"
+    },
+    {
+      "id": "msg-3",
+      "channelId": "ch-general",
+      "communityId": "srv-architects",
+      "authorId": "u-marcus",
+      "content": "Protected the studio master stem key below with a passphrase so only active collaborators unlock it.",
+      "isPasswordProtected": false,
+      "reactions": [],
+      "createdAt": "2026-10-26T11:43:11.999Z"
+    },
+    {
+      "id": "msg-4",
+      "channelId": "ch-general",
+      "communityId": "srv-architects",
+      "authorId": "u-marcus",
+      "content": "[Password-Protected Message — Passphrase Required]",
+      "isPasswordProtected": true,
+      "encryptedPayload": {
+        "ciphertextHex": "fbc02ffc5338285dae8c15877af0620b27b64675244978af45722a50c0dd1dd169805e1fc3400325aae801eb1fd1156c21f97db59e4d8d79d5f66fba3972c911c54ec15bc4b35515da443d6283f92ea41db33b547d4e734e72dca92dc5",
+        "saltHex": "09d8250a6b045381df144cecc6453e5e",
+        "ivHex": "54448aa8e1362db0c3346437",
+        "hint": "Community invite prefix + year (lowercase)"
+      },
+      "reactions": [
+        {
+          "emoji": "🔒",
+          "userIds": [
+            "u-elena",
+            "u-sora"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T11:45:11.999Z"
+    },
+    {
+      "id": "msg-dm-1",
+      "threadId": "dm-elena-marcus",
+      "authorId": "u-marcus",
+      "content": "Hey Elena, are we testing the WebRTC screen share in Studio A at 9 PM?",
+      "isPasswordProtected": false,
+      "reactions": [],
+      "createdAt": "2026-10-26T12:23:11.999Z"
+    },
+    {
+      "id": "msg-dm-2",
+      "threadId": "dm-elena-marcus",
+      "authorId": "u-elena",
+      "content": "Yes! STUN signaling and track cleanup are live. See you in Studio A.",
+      "isPasswordProtected": false,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-marcus"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T12:31:11.999Z"
+    },
+    {
+      "id": "msg-pulse-1",
+      "pulseRoomId": "pulse-1",
+      "authorId": "u-elena",
+      "content": "Welcome to the live Pulse Room for the Zurich Monolith post! Ask anything about the 7-degree baffle geometry.",
+      "isPasswordProtected": false,
+      "reactions": [],
+      "createdAt": "2026-10-26T11:53:11.999Z"
+    }
+  ],
+  "dmThreads": [
+    {
+      "id": "dm-elena-marcus",
+      "isGroup": false,
+      "participantIds": [
+        "u-elena",
+        "u-marcus"
+      ],
+      "createdAt": "2026-10-26T03:13:11.999Z",
+      "lastMessageAt": "2026-10-26T12:31:11.999Z",
+      "unreadBy": {
+        "u-elena": 0,
+        "u-marcus": 0
+      },
+      "readReceipts": {
+        "u-elena": "2026-10-26T12:33:11.999Z",
+        "u-marcus": "2026-10-26T12:32:11.999Z"
+      }
+    },
+    {
+      "id": "dm-group-founders",
+      "isGroup": true,
+      "name": "Core Studio Curators",
+      "participantIds": [
+        "u-elena",
+        "u-marcus",
+        "u-sora"
+      ],
+      "createdAt": "2026-10-26T04:53:11.999Z",
+      "lastMessageAt": "2026-10-26T11:13:11.999Z",
+      "unreadBy": {
+        "u-elena": 1,
+        "u-marcus": 0,
+        "u-sora": 0
+      },
+      "readReceipts": {
+        "u-marcus": "2026-10-26T11:18:11.999Z",
+        "u-sora": "2026-10-26T11:15:11.999Z"
+      }
+    }
+  ],
+  "pulseRooms": [
+    {
+      "id": "pulse-1",
+      "title": "Acoustics & Concrete Reflections Q&A",
+      "hostUserId": "u-elena",
+      "attachedPostId": "post-1",
+      "activeParticipantIds": [
+        "u-elena",
+        "u-marcus",
+        "u-sora"
+      ],
+      "createdAt": "2026-10-26T11:43:11.999Z",
+      "expiresAt": "2026-10-26T19:13:11.999Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-elena",
+      "actorId": "u-marcus",
+      "type": "comment",
+      "title": "Marcus Kael commented on your post",
+      "body": "\"Tested the impulse response file on my modular reverb...\"",
+      "targetView": "feed",
+      "targetId": "post-1",
+      "read": false,
+      "createdAt": "2026-10-26T11:23:11.999Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-elena",
+      "actorId": "u-sora",
+      "type": "like",
+      "title": "Sora Takahashi liked your post",
+      "body": "Completed the acoustic baffle array inside the Zurich Monolith Studio.",
+      "targetView": "feed",
+      "targetId": "post-1",
+      "read": false,
+      "createdAt": "2026-10-26T11:58:11.999Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "u-elena",
+      "actorId": "u-devon",
+      "type": "follow",
+      "title": "Devon Hart started following you",
+      "body": "@devon_hart connected with your profile.",
+      "targetView": "profile",
+      "targetId": "u-devon",
+      "read": true,
+      "createdAt": "2026-10-26T08:13:11.999Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-1",
+      "reporterId": "u-sora",
+      "targetType": "message",
+      "targetId": "msg-3",
+      "reason": "Security Verification Audit",
+      "details": "Routine verification that encrypted stem keys use passphrase protection.",
+      "status": "open",
+      "createdAt": "2026-10-26T12:43:11.999Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1",
+      "actorId": "u-elena",
+      "communityId": "srv-architects",
+      "action": "STORE_INITIALIZED_ATOMIC",
+      "metadataSummary": "Initialized atomic JSON store with backup verification and role-based permissions.",
+      "createdAt": "2026-10-25T13:13:11.999Z"
+    },
+    {
+      "id": "audit-2",
+      "actorId": "u-elena",
+      "communityId": "srv-architects",
+      "action": "CHANNEL_PIN_MESSAGE",
+      "targetId": "msg-1",
+      "metadataSummary": "Pinned welcome announcement in #announcements",
+      "createdAt": "2026-10-25T13:58:11.999Z"
+    }
+  ]
+}

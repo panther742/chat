@@ -1,0 +1,6 @@
+{
+  "name": "Anonymous Chat — Social & Community Platform",
+  "description": "A unified social networking and real-time community platform combining social feeds, 24h Stories, vertical Reels, Discord-style servers and channels, password-protected messaging, and WebRTC voice/video rooms.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
